@@ -5,17 +5,28 @@ export default function Importer() {
   return (
     <div>
       <FlatfileButton
-        licenseKey="dcd8d60c-bdf3-4e60-afef-3845a902731a"
+        licenseKey="b25ea940-c803-4e41-89b2-b3d9fb94d99a"
         customer={{
           email: "mamtadesai007@gmail.com",
-          name: "John Mactavish",
+          name: "Mamta Desai",
           userId: "1",
         }}
         settings={{
           type: "Contact",
           fields: [
-            { label: "Full Name", key: "name" },
-            { label: "Email", key: "email" },
+            { label: "Recipient Name", key: "recipientName" },
+            { label: "Street Address", key: "streetAddress" },
+            { label: "Apartment or Unit #", key: "unitNumber" },
+            { label: "Address Line 3", key: "addressLine3" },
+            { label: "City", key: "city" },
+            { label: "State", key: "state" },
+            { label: "Country Code", key: "countryCode" },
+            { label: "Postal Code / Zip", key: "postalCode" },
+            { label: "Product", key: "product" },
+            { label: "Size", key: "size" },
+            { label: "Add Ons", key: "addOns" },
+            { label: "Customization Option", key: "customizationOption" },
+            { label: "Shipping Method", key: "shippingMethod" },
           ],
           managed: true,
         }}
