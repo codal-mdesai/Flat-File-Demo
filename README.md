@@ -15,3 +15,8 @@ account: mamtadesai007@gmail.com (trial)
 2. Portal Way:-
    Lisence key:
    dcd8d60c-bdf3-4e60-afef-3845a902731a
+
+ENV FIELDS:
+EMBED_ID=
+PRIVATE_KEY=
+NEXT_PUBLIC_LICENCE_KEY=

@@ -5,7 +5,7 @@ export default function Importer() {
   return (
     <div>
       <FlatfileButton
-        licenseKey="b25ea940-c803-4e41-89b2-b3d9fb94d99a"
+        licenseKey={process.env.NEXT_PUBLIC_LICENCE_KEY}
         customer={{
           email: "mamtadesai007@gmail.com",
           name: "Mamta Desai",
